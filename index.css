@@ -1,4 +1,4 @@
-{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -11,7 +11,6 @@
     --caixa-dagua: #1F5FBF;
     --fita: #F3C623;
     --branco: #FFFFFF;
-
     --fonte-cartaz: "Big Shoulders", "Arial Narrow", sans-serif;
     --fonte-texto: "Archivo", Arial, sans-serif;
 }
@@ -24,12 +23,10 @@ body{
     line-height: 1.55;
 }
 
-a{
+a {
     color: inherit;
 }
-h1,
-h2,
-h3 {
+h1, h2, h3 {
     font-family: var(--fonte-cartaz);
     font-weight: 900;
     line-height: 0.95;
@@ -39,4 +36,22 @@ h3 {
     max-width: 1200;
     margin-inline: auto;
     padding-inline: 32px;
+}
+
+.topo{
+    padding-block: 28px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.logo{
+    font-family: var(--fonte-cartaz);
+    font-size: 34px;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+.menu{
+    
 }

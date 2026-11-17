@@ -42,7 +42,7 @@ h1, h2, h3 {
     padding-block: 28px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center;    
 }
 
 .logo {
@@ -126,4 +126,45 @@ h1, h2, h3 {
 
 .cartaz-lateral {
     align-items: flex-start;
+}
+
+.secao {
+    margin-top: 96px;
+}
+
+titulo.secao {
+    font-size: 64px;
+    margin-bottom: 32px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.card {
+    background: white;
+    margin: 3px solid var(--tinta);
+    flex: 1 1 340px;
+}
+
+.card .foto {
+    height: 170px;
+}
+
+.foto{
+    background-color: var(--concreto-escuro);
+}
+
+.foto-azul {
+    background-color: var(--caixa-dagua);
+}
+
+.foto-amarela {
+    background-color: var(--fita);
+}
+
+.foto-tinta{
+    background-color: var(--tinta);
 }

@@ -33,7 +33,7 @@ h1, h2, h3 {
 }
 
 .conteudo {
-    max-width: 1200;
+    max-width: 1200px;
     margin-inline: auto;
     padding-inline: 32px;
 }
@@ -64,7 +64,7 @@ h1, h2, h3 {
     border-bottom: 4px solid transparent;
 }
 
-.menu a.hover {
+.menu a:hover {
     border-bottom-color: var(--tinta);
 }
 
@@ -132,7 +132,7 @@ h1, h2, h3 {
     margin-top: 96px;
 }
 
-titulo.secao {
+.titulo-secao {
     font-size: 64px;
     margin-bottom: 32px;
 }
@@ -145,7 +145,7 @@ titulo.secao {
 
 .card {
     background: white;
-    margin: 3px solid var(--tinta);
+    border: 3px solid var(--tinta);
     flex: 1 1 340px;
 }
 
@@ -168,3 +168,70 @@ titulo.secao {
 .foto-tinta{
     background-color: var(--tinta);
 }
+
+.card-texto {
+    padding: 24px;
+}
+
+.card h3 {
+    font-size: 36px;
+    margin-bottom: 12px;
+}
+
+.card-info {
+    margin-top: 20px;
+    padding-top: 16px;
+    border-top: 2px solid var(--concreto-escuro);
+    font-weight: 600;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.passos {
+    display: flex;
+    gap: 24px;
+}
+
+.passo{
+    border-top: 6px solid var(--tinta);
+    padding-top: 20px;
+    flex: 1;
+}
+
+.passo-numero{
+    font-family: var(--fonte-cartaz);
+    font-size: 96px;
+    font-weight: 900;
+    line-height: 1;
+    color: var(--caixa-dagua);
+}
+
+.passo h3 {
+    font-size: 32px;
+    margin-block: 8px 12px;
+}
+
+.rodape {
+    margin-top: 120px;
+    background-color: var(--tinta);
+    color: var(--concreto);
+    padding-block: 56px;
+}
+
+.rodape-colunas {
+    display: flex;
+    gap: 40px;
+}
+
+.rodape-coluna {
+    flex: 1;
+}
+
+.rodape h4 {
+    font-family: var(--fonte-cartaz);
+    font-size: 28px;
+    color: var(--fita);
+    margin-bottom: 12px;
+}
+
